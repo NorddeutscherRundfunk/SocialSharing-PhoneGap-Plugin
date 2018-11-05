@@ -42,7 +42,7 @@
     </config-file>
           
     <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
-      <string>This app requires photo library access to function properly.</string>
+      <string>$PHOTOLIBRARY_ADDITIONS_USAGE_DESCRIPTION</string>
     </config-file>
 
     <header-file src="src/ios/NSString+SSURLEncoding.h"/>
